@@ -25,6 +25,8 @@ public class PlayerAttack : MonoBehaviour
     {
         if(collider.CompareTag("Enemy"))
         {
+            Animator enemyAnim = collider.GetComponentInParent<Animator>();
+            enemyAnim.SetTrigger("Muerte");
             _body.AddForce(transform.up * bounceForce, ForceMode2D.Impulse);
             Destroy(collider.gameObject, 1);
         }
