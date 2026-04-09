@@ -6,6 +6,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     private Rigidbody2D _rb;
+    public int bulletType = 1;
 
     public float speed;
     // Start is called before the first frame update
@@ -23,7 +24,15 @@ public class Bullet : MonoBehaviour
     {
         if (collider.CompareTag("Enemy"))
         {
-            Destroy(collider.gameObject);
+            if(bulletType == 1)
+            {
+                Destroy(collider.gameObject);    
+            } else if(bulletType == 2)
+            {
+                SpriteRenderer enemySprite = collider.GetComponent<SpriteRenderer>();
+                enemySprite.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);            
+            }
+            
         }
         else if (collider.gameObject.CompareTag("Platform"))
         {
