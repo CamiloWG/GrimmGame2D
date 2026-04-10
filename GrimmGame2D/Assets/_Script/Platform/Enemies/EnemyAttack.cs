@@ -12,4 +12,13 @@ public class EnemyAttack : MonoBehaviour
             playerHealth.Damage();
         }
     }
+
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+    //        playerHealth.Damage();
+    //    }
+    //}
 }
