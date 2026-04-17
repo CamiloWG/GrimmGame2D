@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour
         {
             PlayerShoot playerBullets = collision.GetComponent<PlayerShoot>();
             playerBullets.amountBullets += 10;
+            AudioManager.instance.PlayCoin();
             Destroy(gameObject, 1);
         }
     }

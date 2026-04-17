@@ -28,7 +28,8 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         volumeSlider.value = bgSource.volume;
-        volumeSlider.onValueChanged.AddListener(delegate { OnSliderValueChanged(); });
+        effectSource.volume = bgSource.volume;
+        volumeSlider.onValueChanged.AddListener(x => OnSliderValueChanged(x));
     }
 
     // Update is called once per frame
@@ -37,10 +38,25 @@ public class AudioManager : MonoBehaviour
         
     }
 
-    void OnSliderValueChanged()
+    void OnSliderValueChanged(float volumen)
     {
-        bgSource.volume = volumeSlider.value;
+        bgSource.volume = volumen;
+        effectSource.volume = volumen;
     }
 
+    private void PlaySound(AudioClip clip)
+    {
+        effectSource.PlayOneShot(clip);
+    }
+
+    public void PlayJump()
+    {
+        PlaySound(jump);
+    }
+
+    public void PlayCoin()
+    {
+        PlaySound(coin);
+    }
     
 }

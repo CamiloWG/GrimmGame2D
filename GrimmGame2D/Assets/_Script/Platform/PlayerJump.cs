@@ -20,6 +20,7 @@ public class PlayerJump : MonoBehaviour
         if (Mathf.Abs(_rd.velocity.y) < 0.01)
         {
             _rd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            AudioManager.instance.PlayJump();
         }
     }
 }
