@@ -39,12 +39,12 @@ public class PlayerMovementGrimm : MonoBehaviour
     {
         if(_newInput.inputX > 0)
         {            
-            //transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.rotation = Quaternion.Euler(0, 0, 0);
             SetAnimVal(1);
         } else if( _newInput.inputX < 0)
         {
-            //transform.rotation = Quaternion.Euler(0, 180, 0);
-            SetAnimVal(-1);
+            transform.rotation = Quaternion.Euler(0, 180, 0);
+            SetAnimVal(1);
         } else SetAnimVal(0);
     }
 

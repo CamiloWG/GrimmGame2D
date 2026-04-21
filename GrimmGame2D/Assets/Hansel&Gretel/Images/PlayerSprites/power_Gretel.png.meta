@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: 1875d77a89b6d5f409b8c3450d7bc85e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: power_Gretel_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 641
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 12.5, y: -27}
+        - {x: 18.5, y: -22}
+        - {x: 18.5, y: 15}
+        - {x: 8.5, y: 27}
+        - {x: -18.5, y: 27}
+        - {x: -18.5, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297195f1fbbc0db42b8d21a159f1717e
+      internalID: 529956754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 641
+        width: 57
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e1575ba2a5d5d4fbc2358088f27034
+      internalID: -1751847035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 641
+        width: 63
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc21a03b26bab842abe0d0adf5158e7
+      internalID: -1990928593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 641
+        width: 53
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cd0f6c8267d774cb90d81b3c671737
+      internalID: 1887986852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_4
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 641
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4b2b3193da3048847c145d84c5c66
+      internalID: 763388309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_5
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 642
+        width: 39
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c298da43a195d4a84f6ca070eed14a
+      internalID: 1868758669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 450
+        width: 34
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b444b0e13213245bf967e20fe2b4bf
+      internalID: -2114437185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 450
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a55b2d0294c9064e81ac8eb52a25c4d
+      internalID: 1954284297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_8
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 445
+        width: 55
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbe891fb0263784f91fad78d9bd6a11
+      internalID: 1838555797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 439
+        width: 56
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce91555c620cc4a9737652d111250f
+      internalID: 1334720608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_10
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 439
+        width: 48
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63e44266b42cf74186d90b572e5bc95
+      internalID: -509183450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_11
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 442
+        width: 44
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7d0f168c10ea046aca1f441b9de766
+      internalID: 701158324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 258
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1462aeeeb757414fa3712f124dafcc0
+      internalID: -1673184788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 258
+        width: 55
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1220da042155f844ab333a6a1fa4a0d8
+      internalID: 887153924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_14
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 247
+        width: 53
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d660bd6daa52aa94c8f32cc01c50d8ab
+      internalID: 1990900878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 257
+        width: 53
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b52416eb5417c94cbbe2a4d5fdc9fdf
+      internalID: -623549322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_16
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 248
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32e95bfb452bb840b9f25987e894730
+      internalID: -844989515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_17
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 247
+        width: 31
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552828ccf67d2594db1539f4ef2848f2
+      internalID: 1371737121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 66
+        width: 34
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6a5e9e0e0d0a4d864f3c801a11af9
+      internalID: 414095315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 66
+        width: 56
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: 28}
+        - {x: -21, y: 25}
+        - {x: -20, y: 22}
+        - {x: -9, y: 21}
+        - {x: -3, y: 21}
+        - {x: -2, y: 20}
+        - {x: -8, y: 21}
+        - {x: -17, y: 21}
+        - {x: -20, y: 20}
+        - {x: -23, y: 17}
+        - {x: -24, y: 14}
+        - {x: -28, y: 1}
+        - {x: -28, y: -21}
+        - {x: -1, y: -21}
+        - {x: 28, y: 5}
+        - {x: 28, y: 28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6f2b1a04bf0ba4997359c986b10964
+      internalID: -1250353512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 61
+        width: 55
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9.5, y: 26.5}
+        - {x: 0.5, y: 26.5}
+        - {x: 0.5, y: 25.5}
+        - {x: 8.5, y: 10.5}
+        - {x: 2.5, y: 20.5}
+        - {x: -6.5, y: 26.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -23.5, y: 23.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -27.5, y: 9.5}
+        - {x: -27.5, y: -16.5}
+        - {x: 0.5, y: -16.5}
+        - {x: 10.5, y: -16.5}
+        - {x: 27.5, y: 2.5}
+        - {x: 25.5, y: 13.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: febee5dda6f0b014a8553e3a107b03b5
+      internalID: -1693831502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 55
+        width: 56
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: 22}
+        - {x: 3, y: 29}
+        - {x: -19, y: 29}
+        - {x: -28, y: 7}
+        - {x: -28, y: -12}
+        - {x: 14, y: -12}
+        - {x: 28, y: -12}
+        - {x: 28, y: 9}
+        - {x: 21, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bde30c60fb4428409f809c4d7bb4f0a
+      internalID: 477531858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 55
+        width: 48
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 18, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 28}
+        - {x: -24, y: 28}
+        - {x: -24, y: -12}
+        - {x: 15, y: -12}
+        - {x: 24, y: -9}
+        - {x: 6, y: 21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dc1e7ced1196942b506eac698b97ec
+      internalID: 380214893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_Gretel_23
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 58
+        width: 44
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 16, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 15, y: 27.5}
+        - {x: -22, y: 27.5}
+        - {x: -22, y: -11.5}
+        - {x: -1, y: -11.5}
+        - {x: 18, y: -12.5}
+        - {x: 22, y: 4.5}
+        - {x: 16, y: 26.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8610468ac4a8ae2468921d83e92c2428
+      internalID: 80783764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      power_Gretel_0: 529956754
+      power_Gretel_1: -1751847035
+      power_Gretel_10: -509183450
+      power_Gretel_11: 701158324
+      power_Gretel_12: -1673184788
+      power_Gretel_13: 887153924
+      power_Gretel_14: 1990900878
+      power_Gretel_15: -623549322
+      power_Gretel_16: -844989515
+      power_Gretel_17: 1371737121
+      power_Gretel_18: 414095315
+      power_Gretel_19: -1250353512
+      power_Gretel_2: -1990928593
+      power_Gretel_20: -1693831502
+      power_Gretel_21: 477531858
+      power_Gretel_22: 380214893
+      power_Gretel_23: 80783764
+      power_Gretel_3: 1887986852
+      power_Gretel_4: 763388309
+      power_Gretel_5: 1868758669
+      power_Gretel_6: -2114437185
+      power_Gretel_7: 1954284297
+      power_Gretel_8: 1838555797
+      power_Gretel_9: 1334720608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

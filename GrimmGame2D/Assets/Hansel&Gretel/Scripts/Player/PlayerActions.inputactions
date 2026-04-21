@@ -32,24 +32,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "BulletOne",
-                    "type": "Button",
-                    "id": "f357b802-1e0d-4d06-a9a6-48b7a96bf8ea",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "BulletTwo",
-                    "type": "Button",
-                    "id": "c0e3c646-a766-41ba-9ef1-81dcf2564ccf",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -144,33 +126,11 @@
                 {
                     "name": "",
                     "id": "f08078b9-49fd-4712-85c4-40b344e09658",
-                    "path": "<Keyboard>/b",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keayboard",
                     "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "1a37ba27-b1f0-41c4-a907-594cd0267ecd",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keayboard",
-                    "action": "BulletOne",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a3fc2134-bf6e-4091-a637-4462534a0e75",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keayboard",
-                    "action": "BulletTwo",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
