@@ -7,6 +7,7 @@ public class PlayerMovementGrimm : MonoBehaviour
 
     private Rigidbody2D _rd;
     private NewInputGrimm _newInput;
+    public Animator anim;
     public float speed;
 
     // Start is called before the first frame update
@@ -37,11 +38,19 @@ public class PlayerMovementGrimm : MonoBehaviour
     public void Flip()
     {
         if(_newInput.inputX > 0)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+        {            
+            //transform.rotation = Quaternion.Euler(0, 0, 0);
+            SetAnimVal(1);
         } else if( _newInput.inputX < 0)
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        }
+            //transform.rotation = Quaternion.Euler(0, 180, 0);
+            SetAnimVal(-1);
+        } else SetAnimVal(0);
+    }
+
+
+    private void SetAnimVal(float n)
+    {
+        anim.SetFloat("movX", n);
     }
 }

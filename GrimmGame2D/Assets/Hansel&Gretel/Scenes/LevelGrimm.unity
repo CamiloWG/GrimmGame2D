@@ -332,7 +332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267919206025791659, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
       propertyPath: m_Size.y
-      value: 0.748459
+      value: 0.71886116
       objectReference: {fileID: 0}
     - target: {fileID: 3267919206025791659, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
       propertyPath: m_Offset.x
@@ -340,7 +340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3267919206025791659, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
       propertyPath: m_Offset.y
-      value: 0.43761402
+      value: 0.45241293
       objectReference: {fileID: 0}
     - target: {fileID: 4079924212988585803, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
       propertyPath: m_LocalScale.x
@@ -415,6 +415,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3122149288392779965, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1868413179}
+    - targetCorrespondingSourceObject: {fileID: 3122149288392779965, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868413186}
   m_SourcePrefab: {fileID: 100100000, guid: ddc95e74ed281f643aa75663b20a2263, type: 3}
 --- !u!1 &457696675
 GameObject:
@@ -4944,6 +4947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 7
+  anim: {fileID: 1868413186}
 --- !u!114 &1868413180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4956,6 +4960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a559ea15091d47d41bc6fe859ec756b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 1868413186}
   speed: 10
 --- !u!114 &1868413181
 MonoBehaviour:
@@ -4970,6 +4975,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputX: 0
+--- !u!95 &1868413186
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868413169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25ccc7e90b1c016448578c40e0b5f8f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1898700997
 GameObject:
   m_ObjectHideFlags: 0
