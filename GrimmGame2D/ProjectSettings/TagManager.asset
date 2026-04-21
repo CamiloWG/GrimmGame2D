@@ -43,3 +43,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 1Sky
+    uniqueID: 1467343891
+    locked: 0
+  - name: 2Cloud
+    uniqueID: 3519877301
+    locked: 0
+  - name: 3Background
+    uniqueID: 3758047953
+    locked: 0
+  - name: 4Foreground
+    uniqueID: 1094490113
+    locked: 0
+  - name: TileBackground
+    uniqueID: 570202207
+    locked: 0
+  - name: TileForeground
+    uniqueID: 1622549637
+    locked: 0
+  - name: Player
+    uniqueID: 1505598411
+    locked: 0
+  - name: TileObjects
+    uniqueID: 892240581
+    locked: 0
