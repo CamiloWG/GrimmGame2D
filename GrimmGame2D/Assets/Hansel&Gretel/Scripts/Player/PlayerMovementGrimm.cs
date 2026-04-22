@@ -13,7 +13,6 @@ public class PlayerMovementGrimm : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerStats.score = 0;
         _rd = GetComponent<Rigidbody2D>();
         _newInput = GetComponent<NewInputGrimm>();
     }

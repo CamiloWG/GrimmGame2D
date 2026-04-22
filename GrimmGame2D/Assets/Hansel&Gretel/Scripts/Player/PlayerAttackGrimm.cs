@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerAttackGrimm : MonoBehaviour
 {
     public Animator anim;
+    public float attackCooldown = 3f;
+    float lastAttackTime = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +21,13 @@ public class PlayerAttackGrimm : MonoBehaviour
         
     }
 
-    public void Attack()
+    public void Attack(InputAction.CallbackContext context)
     {
-        anim.SetTrigger("playerAttack");
+        if(context.performed && Time.time > lastAttackTime + attackCooldown)
+        {
+            anim.ResetTrigger("playerAttack");
+            anim.SetTrigger("playerAttack");   
+            lastAttackTime = Time.time;
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "PlayerActions",
+    "name": "GretelActions",
     "maps": [
         {
             "name": "Player",
@@ -49,7 +49,7 @@
                 {
                     "name": "negative",
                     "id": "4544f4ef-3ca1-4044-a983-1df5af7ecf8d",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keayboard",
@@ -60,43 +60,10 @@
                 {
                     "name": "positive",
                     "id": "5739e012-dbaa-44db-8ae9-97ae179fd18b",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keayboard",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "1D Axis",
-                    "id": "8c2dd83f-e851-40c2-8988-f6b0662d705d",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "5a0a6c93-5fae-4f92-9486-83ff23898906",
-                    "path": "<Gamepad>/dpad/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "599b6607-21f8-480f-8f4d-fabb4662b324",
-                    "path": "<Gamepad>/dpad/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -104,21 +71,10 @@
                 {
                     "name": "",
                     "id": "84bde5d6-1f20-4c65-b9b5-9692a5f1b1ca",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keayboard",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d2f8bf1a-d73d-4f72-aa24-9893847a63c2",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
