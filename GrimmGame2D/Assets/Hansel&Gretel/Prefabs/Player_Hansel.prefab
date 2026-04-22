@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 7336358769348739865}
   - component: {fileID: 7720373091895036604}
   - component: {fileID: 7357548431405604085}
+  - component: {fileID: 6298204903181832876}
   m_Layer: 0
   m_Name: Player_Hansel
   m_TagString: Player
@@ -190,6 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 7357548431405604085}
+  attackCooldown: 3
 --- !u!114 &5507363048394229282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 7357548431405604085}
-  speed: 10
+  speed: 8
 --- !u!114 &7720373091895036604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,7 +266,19 @@ MonoBehaviour:
     m_ActionId: a8daef7e-11c8-4b1c-af8a-f75f2a23a1a9
     m_ActionName: Player/Jump[/Keyboard/w]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1540953732215188237}
+        m_TargetAssemblyTypeName: PlayerAttackGrimm, Assembly-CSharp
+        m_MethodName: Attack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 4431d9b6-ef8e-4d1a-879e-24b7b983ff17
     m_ActionName: Player/Shoot[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
@@ -293,3 +307,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6298204903181832876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3122149288392779965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f2625f36538844e9f7046f6d723189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAlive: 1

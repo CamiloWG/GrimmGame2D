@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 4323053984021476822}
   - component: {fileID: 8118011956430258435}
   - component: {fileID: 5675151824334269903}
+  - component: {fileID: 6050161527882119805}
   m_Layer: 0
   m_Name: Player_Gretel
   m_TagString: Player
@@ -190,7 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 5675151824334269903}
-  speed: 10
+  speed: 8
 --- !u!114 &7914927699393056963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +242,7 @@ MonoBehaviour:
       - m_Target: {fileID: 8118011956430258435}
         m_TargetAssemblyTypeName: PlayerAttackGrimm, Assembly-CSharp
         m_MethodName: Attack
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -284,6 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 5675151824334269903}
+  attackCooldown: 3
 --- !u!95 &5675151824334269903
 Animator:
   serializedVersion: 5
@@ -305,3 +307,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6050161527882119805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8214929035430653895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f2625f36538844e9f7046f6d723189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAlive: 1

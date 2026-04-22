@@ -24,14 +24,12 @@ public class PlatformMovement : MonoBehaviour
     {
         if (esperando) return;
 
-        // Movimiento
         transform.position = Vector3.MoveTowards(
             transform.position,
             destino,
             velocidad * Time.deltaTime
         );
 
-        // ¿Llegó al destino?
         if (Vector3.Distance(transform.position, destino) < 0.05f)
         {
             StartCoroutine(CambiarDestino());

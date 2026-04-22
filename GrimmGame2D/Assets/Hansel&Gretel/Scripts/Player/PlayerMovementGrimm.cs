@@ -8,6 +8,7 @@ public class PlayerMovementGrimm : MonoBehaviour
     private Rigidbody2D _rd;
     private NewInputGrimm _newInput;
     public Animator anim;
+    public PlayerInfo pInfo;
     public float speed;
 
     // Start is called before the first frame update
@@ -15,6 +16,7 @@ public class PlayerMovementGrimm : MonoBehaviour
     {
         _rd = GetComponent<Rigidbody2D>();
         _newInput = GetComponent<NewInputGrimm>();
+        pInfo = GetComponent<PlayerInfo>();
     }
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class PlayerMovementGrimm : MonoBehaviour
     //Metodo para moverse
     public void Move()
     {
+        if(!pInfo.isAlive) return;
         _rd.velocity = new Vector2(_newInput.inputX * speed, _rd.velocity.y);
         Flip();
     }
