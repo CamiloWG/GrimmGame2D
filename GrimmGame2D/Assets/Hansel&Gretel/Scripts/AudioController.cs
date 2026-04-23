@@ -11,7 +11,9 @@ public class AudioController : MonoBehaviour
 
     public AudioClip jump;
     public AudioClip coin;
+    public AudioClip win;
 
+    public AudioClip golpe;
 
 
     public AudioClip deathGretel;
@@ -58,5 +60,15 @@ public class AudioController : MonoBehaviour
         {
             PlaySound(deathGretel);
         } else PlaySound(deathHansel);
+    }
+
+    public void PlayWin()
+    {
+        PlaySound(win);
+    }
+
+    public void PlayGolpe()
+    {
+        PlaySound(golpe);
     }
 }

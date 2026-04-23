@@ -92,7 +92,7 @@ public class EnemyMovement : MonoBehaviour
     public void AttackEnemy()
     {
         if (isDead) return;
-
+        AudioController.instance.PlayGolpe();
         StartCoroutine(DeathRoutine());
     }
 

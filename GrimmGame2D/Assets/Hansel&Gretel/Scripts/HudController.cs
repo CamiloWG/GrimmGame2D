@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HudController : MonoBehaviour
@@ -32,5 +33,15 @@ public class HudController : MonoBehaviour
         textPuntaje.text = totalPuntaje.ToString();
         if(!gretelInfo.isAlive) gretelHeart.sprite = emptyHeart;
         if(!hanselInfo.isAlive) hanselHeart.sprite = emptyHeart;
+        if(!hanselInfo.isAlive && !gretelInfo.isAlive)
+        {
+            StartCoroutine(GameOverRoutine());
+        }
+    }
+
+    System.Collections.IEnumerator GameOverRoutine()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(2);
     }
 }

@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Hansel&Gretel/Scenes/LevelGrimm.unity
     guid: 71b92c8648a198a48acbb5637168bb02
+  - enabled: 1
+    path: Assets/Hansel&Gretel/Scenes/GameOver.unity
+    guid: 2607224cf73ed3a4cac240e06dc0a343
+  - enabled: 1
+    path: Assets/Hansel&Gretel/Scenes/Win.unity
+    guid: 8867eeb21f3740045a372647c920e626
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 1487a8924f40bc64eb66688a4f436509, type: 3}
