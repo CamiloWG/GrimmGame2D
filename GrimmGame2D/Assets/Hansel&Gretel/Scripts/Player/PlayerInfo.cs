@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     public bool isAlive = true;
+    public int puntaje = 0;
 
     void Start()
     {
@@ -42,5 +43,10 @@ public class PlayerInfo : MonoBehaviour
         }
 
 
+    }
+
+    public void AddPoints(int points)
+    {
+        puntaje += points;
     }
 }

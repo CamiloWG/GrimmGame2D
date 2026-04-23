@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: balaHansel
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 543103143, guid: d6432ddb941a209478aa01ae8ae66fda, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Transform:
     e00: 1
     e01: 0
