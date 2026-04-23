@@ -21,6 +21,7 @@ public class CandyPoints : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<PlayerInfo>().AddPoints(1);
+            AudioController.instance.PlayCoin();
             Destroy(gameObject);
         }
     }

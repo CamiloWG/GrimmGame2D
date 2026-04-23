@@ -29,6 +29,7 @@ public class PlayerJumpGrimm : MonoBehaviour
         {
             _rd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);            
             anim.SetBool("Jumping", true);
+            AudioController.instance.PlayJump();
         } 
     }
 }

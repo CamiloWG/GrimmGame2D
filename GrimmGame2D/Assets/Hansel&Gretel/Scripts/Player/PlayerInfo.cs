@@ -6,6 +6,7 @@ public class PlayerInfo : MonoBehaviour
 {
     public bool isAlive = true;
     public int puntaje = 0;
+    public bool female = false;
 
     void Start()
     {
@@ -28,6 +29,8 @@ public class PlayerInfo : MonoBehaviour
         rb.velocity = new Vector2(0, 5f);
 
         GetComponent<Animator>().SetTrigger("playerDeath");
+
+        AudioController.instance.PlayDeath(this);
         
         if(buryPlayer) StartCoroutine(BajarJugador(transform, rb, distance));
     }
