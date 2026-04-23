@@ -9,6 +9,10 @@ public class HudController : MonoBehaviour
     public int totalPuntaje = 0;
     public GameObject hanselPlayer;
     public GameObject gretelPlayer;
+    public Sprite emptyHeart;
+
+    public Image gretelHeart;
+    public Image hanselHeart;
 
     public TextMeshProUGUI textPuntaje;
 
@@ -26,5 +30,7 @@ public class HudController : MonoBehaviour
     {
         totalPuntaje = gretelInfo.puntaje + hanselInfo.puntaje;
         textPuntaje.text = totalPuntaje.ToString();
+        if(!gretelInfo.isAlive) gretelHeart.sprite = emptyHeart;
+        if(!hanselInfo.isAlive) hanselHeart.sprite = emptyHeart;
     }
 }
