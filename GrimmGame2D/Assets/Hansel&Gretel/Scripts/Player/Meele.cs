@@ -25,8 +25,7 @@ public class Meele : MonoBehaviour
         
         foreach (Collider2D item in objs)
         {
-            if (item.CompareTag("Enemy"))
-            {
+            if (item.CompareTag("Enemy"))            {
                 item.gameObject.GetComponent<EnemyMovement>().AttackEnemy();
             }
         }

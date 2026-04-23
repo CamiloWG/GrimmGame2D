@@ -9,11 +9,14 @@ public class PlayerAttackGrimm : MonoBehaviour
     public float attackCooldown = 3f;
     float lastAttackTime = 0f;
     Meele ataqueCuerpo;
+    playerShoot pShoot;
+
 
     // Start is called before the first frame update
     void Start()
     {
         TryGetComponent<Meele>(out ataqueCuerpo);
+        TryGetComponent<playerShoot>(out pShoot);
     }
 
     // Update is called once per frame
@@ -29,6 +32,7 @@ public class PlayerAttackGrimm : MonoBehaviour
             anim.ResetTrigger("playerAttack");
             anim.SetTrigger("playerAttack");   
             if(ataqueCuerpo) ataqueCuerpo.AttackMeele();
+            if(pShoot) pShoot.Shoot();
             lastAttackTime = Time.time;
         }
     }
