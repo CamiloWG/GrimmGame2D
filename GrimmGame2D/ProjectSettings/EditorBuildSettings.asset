@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Platformer/MainMenu.unity
     guid: f8ccf52e80b6beb43b952114b642a291
   - enabled: 1
-    path: Assets/Scenes/Platformer/Level1.unity
-    guid: 1d9186d0aa401374684ff0494d5e7362
+    path: Assets/Hansel&Gretel/Scenes/LevelGrimm.unity
+    guid: 71b92c8648a198a48acbb5637168bb02
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 1487a8924f40bc64eb66688a4f436509, type: 3}
